@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRATOS6969</title>
+    <style>
+      /* Add some basic styling to our login form */
+      .background-kratos {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .judul {
+        text-align: center;
+        font-size: 48px;
+        font-weight: bold;
+        margin-bottom: 20px;
+  
+        color: #ff0000;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .login-form {
+        max-width: 300px;
+        padding: 60px;
+        border: 1px solid #fbfbfb;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(90, 90, 90, 0.1);
+        position: relative;
+        z-index: 1;
+      }
+      .video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+      }
+      .login-form input[type="text"], .login-form input[type="password"] {
+        width: 100%;
+        padding: 9px;
+        margin-bottom: 5px;
+        border: 1px solid #000000;
+      }
+      .login-form input[type="submit"] {
+        background-color: #ff0000;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .login-form input[type="submit"]:hover {
+        background-color: #090606;
+      }
+      .form-background {
+        position: relative;
+        height: 100%;
+        width: 100%;
+      }
+      .form-background video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+      }
+      .login-form label {
+        color: #ffffff; /* Change the text color to blue */
+      }
+    </style>
+</head>
+<body>
+    <div class="background-kratos">
+      <h1 class="judul">KRATOS6969</h1>
+      <video class="video-background" autoplay loop muted>
+        <source src="video2.mp4" type="video/mp4">
+      </video>
+      <div class="login-form">
+        <h2 style="color: #ff0000;">Masukkan Akun</h2>
+        <div class="form-background">
+          <form>
+            <label for="username">Nama:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Kata Sandi:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login">
+          </form>
+          <p>
+            <a href="#" style="color: #ffffff;">Daftar</a> | 
+            <a href="#" style="color: #ffffff;">Lupa Kata Sandi</a>
+          </p>
+        </div>
+      </div>
+      <audio autoplay loop>
+        <source src="audio1.mp3" type="audio/mp3">
+      </audio>
+    </div>
+</body>
+</html>
